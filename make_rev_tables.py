@@ -7,8 +7,8 @@ rev_eval_extra.py, forecast_rev.py, costmodel_rev.py, robust_ext.py,
 robustness.py, policy_agnostic.py, explain_audit.py, scale_run.py,
 deadline_shift (evaluate.py --shift).
 
-Output: generated/rev_macros.tex and rineng/generated/tab_*.tex
-        generated/response_numbers.tex (same macros, for the letter)
+Output: rineng/generated/rev_macros.tex and rineng/generated/tab_*.tex
+        rineng/revision/response_numbers.tex (same macros, for the letter)
 """
 
 import json
@@ -244,7 +244,7 @@ def forecast():
 # --------------------------------------------------------------- tariffs
 def tariff():
     js = json.loads((RES / "costmodel.json").read_text())
-    sc = [("E", "Energy only (as in Table~\\ref{tab:costs})"), ("N", "+ network charge"),
+    sc = [("E", "Energy only (as in Table~4 of the article)"), ("N", "+ network charge"),
           ("ND", "+ demand charge"), ("NDX", "+ export at day-ahead price"),
           ("B", "Energy only + battery"), ("ALL", "All components + battery")]
     meth = [("Best block", "Best block"), (M, "Mask"), ("EMPC (energy-only model)", "EMPC$_E$"),
