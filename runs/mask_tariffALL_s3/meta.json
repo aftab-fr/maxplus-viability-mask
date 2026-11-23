@@ -1,0 +1,32 @@
+{
+  "variant": "mask",
+  "seed": 3,
+  "timesteps": 2000000,
+  "train_years": [
+    2018,
+    2019
+  ],
+  "wall_clock_s": 842.5,
+  "violation_penalty": 500.0,
+  "observe_slack": true,
+  "tariff": "ALL",
+  "n_envs": 4,
+  "forecast_sigma_range": [
+    0.0,
+    0.3
+  ],
+  "hyperparams": {
+    "learning_rate": 0.0003,
+    "n_steps": 240,
+    "batch_size": 240,
+    "n_epochs": 10,
+    "gamma": 1.0,
+    "gae_lambda": 0.95,
+    "clip_range": 0.2,
+    "ent_coef": 0.001
+  },
+  "net_arch": [
+    128,
+    128
+  ]
+}

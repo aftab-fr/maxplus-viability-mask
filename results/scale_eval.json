@@ -1,0 +1,108 @@
+{
+  "2020": {
+    "Best block": {
+      "mean": 208.06490861561625,
+      "gap_pct": 11.501064602688583,
+      "saving_vs_latest_pct": 10.697941735609174,
+      "mean_time_s": NaN,
+      "max_time_s": NaN,
+      "late": 0,
+      "seed_gaps": null
+    },
+    "Latest start": {
+      "mean": 232.9900482244339,
+      "gap_pct": 24.858336716690886,
+      "saving_vs_latest_pct": 0.0,
+      "mean_time_s": NaN,
+      "max_time_s": NaN,
+      "late": 0,
+      "seed_gaps": null
+    },
+    "MaskablePPO + mask": {
+      "mean": 204.78944765375064,
+      "gap_pct": 9.745759555131173,
+      "saving_vs_latest_pct": 12.10377901785671,
+      "mean_time_s": 0.00011343819935642502,
+      "max_time_s": 0.0010558285416664,
+      "late": 0,
+      "seed_gaps": [
+        9.030827175942967,
+        10.190859578494926,
+        9.070475521320276,
+        9.65066146674265,
+        10.78597403315511
+      ]
+    },
+    "Max-plus EMPC (CP-SAT)": {
+      "mean": 186.93338221014125,
+      "gap_pct": 0.1767730315271887,
+      "saving_vs_latest_pct": 19.767653754003835,
+      "mean_time_s": 0.7676556408429808,
+      "max_time_s": 15.765388750000056,
+      "late": 0,
+      "seed_gaps": null
+    },
+    "Oracle (CP-SAT)": {
+      "mean": 186.60351751529308,
+      "gap_pct": 0.0,
+      "saving_vs_latest_pct": 19.90923263145461,
+      "mean_time_s": 0.7417372532975758,
+      "max_time_s": 15.46853750000082,
+      "late": 0,
+      "seed_gaps": null
+    }
+  },
+  "2023": {
+    "Best block": {
+      "mean": 643.7749145821739,
+      "gap_pct": 11.1722884379742,
+      "saving_vs_latest_pct": 9.528468180613569,
+      "mean_time_s": NaN,
+      "max_time_s": NaN,
+      "late": 0,
+      "seed_gaps": null
+    },
+    "Latest start": {
+      "mean": 711.5773344784071,
+      "gap_pct": 22.880961781341224,
+      "saving_vs_latest_pct": 0.0,
+      "mean_time_s": NaN,
+      "max_time_s": NaN,
+      "late": 0,
+      "seed_gaps": null
+    },
+    "MaskablePPO + mask": {
+      "mean": 629.8651192797906,
+      "gap_pct": 8.770231848873689,
+      "saving_vs_latest_pct": 11.483251537025463,
+      "mean_time_s": 0.00011805451627567323,
+      "max_time_s": 0.0015674271561086,
+      "late": 0,
+      "seed_gaps": [
+        7.445475684291036,
+        8.723436253197846,
+        8.404655631690705,
+        8.9423715918298,
+        10.33522008335892
+      ]
+    },
+    "Max-plus EMPC (CP-SAT)": {
+      "mean": 580.2713058766236,
+      "gap_pct": 0.2059687756933215,
+      "saving_vs_latest_pct": 18.452812117467467,
+      "mean_time_s": 0.6539338835138692,
+      "max_time_s": 10.809027416999015,
+      "late": 0,
+      "seed_gaps": null
+    },
+    "Oracle (CP-SAT)": {
+      "mean": 579.0785848051981,
+      "gap_pct": 0.0,
+      "saving_vs_latest_pct": 18.620428624294483,
+      "mean_time_s": 0.61054438320445,
+      "max_time_s": 11.522538875000464,
+      "late": 0,
+      "seed_gaps": null
+    }
+  }
+}

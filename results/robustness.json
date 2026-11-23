@@ -1,0 +1,114 @@
+{
+  "D19": {
+    "MaskablePPO + max-plus mask (proposed) [nominal mask]": {
+      "mean_cost": 223.12783135043244,
+      "rel_to_robust_empc_pct": -8.027404331010125,
+      "seed_days": 7250,
+      "late_seed_days": 5120,
+      "late_jobs": 5120,
+      "late_pct": 70.62068965517241,
+      "mask_empty_seed_days": 4666
+    },
+    "MaskablePPO + max-plus mask (proposed) [robust mask]": {
+      "mean_cost": 248.11588076769115,
+      "rel_to_robust_empc_pct": 2.272591647531974,
+      "seed_days": 7250,
+      "late_seed_days": 0,
+      "late_jobs": 0,
+      "late_pct": 0.0,
+      "mask_empty_seed_days": 0
+    },
+    "Max-plus EMPC (nominal model)": {
+      "mean_cost": 219.88125282819254,
+      "rel_to_robust_empc_pct": -9.365633864844646,
+      "seed_days": 725,
+      "late_seed_days": 514,
+      "late_jobs": 514,
+      "late_pct": 70.89655172413794,
+      "mask_empty_seed_days": 457
+    },
+    "Max-plus EMPC (robust model)": {
+      "mean_cost": 242.6025162467648,
+      "rel_to_robust_empc_pct": 0.0,
+      "seed_days": 725,
+      "late_seed_days": 0,
+      "late_jobs": 0,
+      "late_pct": 0.0,
+      "mask_empty_seed_days": 0
+    },
+    "PPO + deadline penalty": {
+      "mean_cost": 217.91149767152103,
+      "rel_to_robust_empc_pct": -10.177560792538987,
+      "seed_days": 7250,
+      "late_seed_days": 5325,
+      "late_jobs": 5408,
+      "late_pct": 73.44827586206897,
+      "mask_empty_seed_days": 4802
+    },
+    "PPO + post-hoc shield": {
+      "mean_cost": 223.85288988185957,
+      "rel_to_robust_empc_pct": -7.7285374673665475,
+      "seed_days": 7250,
+      "late_seed_days": 5300,
+      "late_jobs": 5300,
+      "late_pct": 73.10344827586206,
+      "mask_empty_seed_days": 4766
+    }
+  },
+  "D23": {
+    "MaskablePPO + max-plus mask (proposed) [nominal mask]": {
+      "mean_cost": 218.9619377938316,
+      "rel_to_robust_empc_pct": 1.7973578404595347,
+      "seed_days": 7250,
+      "late_seed_days": 29,
+      "late_jobs": 29,
+      "late_pct": 0.4,
+      "mask_empty_seed_days": 11
+    },
+    "MaskablePPO + max-plus mask (proposed) [robust mask]": {
+      "mean_cost": 217.01396389706744,
+      "rel_to_robust_empc_pct": 0.891727401531428,
+      "seed_days": 7250,
+      "late_seed_days": 0,
+      "late_jobs": 0,
+      "late_pct": 0.0,
+      "mask_empty_seed_days": 0
+    },
+    "Max-plus EMPC (nominal model)": {
+      "mean_cost": 213.28809805201962,
+      "rel_to_robust_empc_pct": -0.8404608614853148,
+      "seed_days": 725,
+      "late_seed_days": 23,
+      "late_jobs": 23,
+      "late_pct": 3.1724137931034484,
+      "mask_empty_seed_days": 2
+    },
+    "Max-plus EMPC (robust model)": {
+      "mean_cost": 215.0958948630048,
+      "rel_to_robust_empc_pct": 0.0,
+      "seed_days": 725,
+      "late_seed_days": 0,
+      "late_jobs": 0,
+      "late_pct": 0.0,
+      "mask_empty_seed_days": 0
+    },
+    "PPO + deadline penalty": {
+      "mean_cost": 218.90768604103945,
+      "rel_to_robust_empc_pct": 1.772135716705514,
+      "seed_days": 7250,
+      "late_seed_days": 24,
+      "late_jobs": 24,
+      "late_pct": 0.3310344827586207,
+      "mask_empty_seed_days": 9
+    },
+    "PPO + post-hoc shield": {
+      "mean_cost": 217.97341669772175,
+      "rel_to_robust_empc_pct": 1.3377855660842153,
+      "seed_days": 7250,
+      "late_seed_days": 19,
+      "late_jobs": 19,
+      "late_pct": 0.2620689655172414,
+      "mask_empty_seed_days": 3
+    }
+  }
+}

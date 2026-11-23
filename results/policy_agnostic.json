@@ -1,0 +1,202 @@
+[
+  {
+    "D": 19.0,
+    "policy": "EMPC",
+    "masked": false,
+    "units": 725,
+    "late_pct": 0.0,
+    "mean_cost": 139.88939047723795,
+    "gap_pct": 0.361172192770276,
+    "gap_ontime_days_pct": 0.361172192770276
+  },
+  {
+    "D": 19.0,
+    "policy": "EMPC",
+    "masked": true,
+    "units": 725,
+    "late_pct": 0.0,
+    "mean_cost": 139.88939047723795,
+    "gap_pct": 0.361172192770276,
+    "gap_ontime_days_pct": 0.361172192770276
+  },
+  {
+    "D": 19.0,
+    "policy": "RL agent",
+    "masked": false,
+    "units": 3625,
+    "late_pct": 6.482758620689655,
+    "mean_cost": 149.63872052771265,
+    "gap_pct": 7.355656825391876,
+    "gap_ontime_days_pct": 7.29237037411119
+  },
+  {
+    "D": 19.0,
+    "policy": "RL agent",
+    "masked": true,
+    "units": 3625,
+    "late_pct": 0.0,
+    "mean_cost": 149.55628711028768,
+    "gap_pct": 7.2965164261635795,
+    "gap_ontime_days_pct": 7.2965164261635795
+  },
+  {
+    "D": 19.0,
+    "policy": "random",
+    "masked": false,
+    "units": 725,
+    "late_pct": 1.9310344827586208,
+    "mean_cost": 297.40900846997926,
+    "gap_pct": 113.37083969633434,
+    "gap_ontime_days_pct": 113.11009021428964
+  },
+  {
+    "D": 19.0,
+    "policy": "random",
+    "masked": true,
+    "units": 725,
+    "late_pct": 0.0,
+    "mean_cost": 296.2052349485579,
+    "gap_pct": 112.50721364683689,
+    "gap_ontime_days_pct": 112.50721364683689
+  },
+  {
+    "D": 19.0,
+    "policy": "stale plan",
+    "masked": false,
+    "units": 725,
+    "late_pct": 10.206896551724139,
+    "mean_cost": 139.1882739935721,
+    "gap_pct": -0.14183144391959335,
+    "gap_ontime_days_pct": 0.31782616094215843
+  },
+  {
+    "D": 19.0,
+    "policy": "stale plan",
+    "masked": true,
+    "units": 725,
+    "late_pct": 0.0,
+    "mean_cost": 142.03131723322852,
+    "gap_pct": 1.8978597088778582,
+    "gap_ontime_days_pct": 1.8978597088778582
+  },
+  {
+    "D": 19.0,
+    "policy": "threshold",
+    "masked": false,
+    "units": 725,
+    "late_pct": 18.758620689655174,
+    "mean_cost": 283.07302908685426,
+    "gap_pct": 103.08574451854157,
+    "gap_ontime_days_pct": 84.60509506285415
+  },
+  {
+    "D": 19.0,
+    "policy": "threshold",
+    "masked": true,
+    "units": 725,
+    "late_pct": 0.0,
+    "mean_cost": 251.81797194541596,
+    "gap_pct": 80.6623558615071,
+    "gap_ontime_days_pct": 80.6623558615071
+  },
+  {
+    "D": 23.0,
+    "policy": "EMPC",
+    "masked": false,
+    "units": 725,
+    "late_pct": 0.0,
+    "mean_cost": 139.1882739935721,
+    "gap_pct": 0.4478313435106296,
+    "gap_ontime_days_pct": 0.4478313435106296
+  },
+  {
+    "D": 23.0,
+    "policy": "EMPC",
+    "masked": true,
+    "units": 725,
+    "late_pct": 0.0,
+    "mean_cost": 139.1882739935721,
+    "gap_pct": 0.4478313435106296,
+    "gap_ontime_days_pct": 0.4478313435106296
+  },
+  {
+    "D": 23.0,
+    "policy": "RL agent",
+    "masked": false,
+    "units": 3625,
+    "late_pct": 0.027586206896551724,
+    "mean_cost": 149.16589026599758,
+    "gap_pct": 7.648365467449447,
+    "gap_ontime_days_pct": 7.655421281905417
+  },
+  {
+    "D": 23.0,
+    "policy": "RL agent",
+    "masked": true,
+    "units": 3625,
+    "late_pct": 0.0,
+    "mean_cost": 149.1712479209555,
+    "gap_pct": 7.6522319197458,
+    "gap_ontime_days_pct": 7.6522319197458
+  },
+  {
+    "D": 23.0,
+    "policy": "random",
+    "masked": false,
+    "units": 725,
+    "late_pct": 0.0,
+    "mean_cost": 295.19230135338273,
+    "gap_pct": 113.03106683840834,
+    "gap_ontime_days_pct": 113.03106683840834
+  },
+  {
+    "D": 23.0,
+    "policy": "random",
+    "masked": true,
+    "units": 725,
+    "late_pct": 0.0,
+    "mean_cost": 295.19230135338273,
+    "gap_pct": 113.03106683840834,
+    "gap_ontime_days_pct": 113.03106683840834
+  },
+  {
+    "D": 23.0,
+    "policy": "stale plan",
+    "masked": false,
+    "units": 725,
+    "late_pct": 0.0,
+    "mean_cost": 139.1882739935721,
+    "gap_pct": 0.4478313435106296,
+    "gap_ontime_days_pct": 0.4478313435106296
+  },
+  {
+    "D": 23.0,
+    "policy": "stale plan",
+    "masked": true,
+    "units": 725,
+    "late_pct": 0.0,
+    "mean_cost": 139.1882739935721,
+    "gap_pct": 0.4478313435106296,
+    "gap_ontime_days_pct": 0.4478313435106296
+  },
+  {
+    "D": 23.0,
+    "policy": "threshold",
+    "masked": false,
+    "units": 725,
+    "late_pct": 12.137931034482758,
+    "mean_cost": 283.07302908685426,
+    "gap_pct": 104.28496645433034,
+    "gap_ontime_days_pct": 91.11438743913236
+  },
+  {
+    "D": 23.0,
+    "policy": "threshold",
+    "masked": true,
+    "units": 725,
+    "late_pct": 0.0,
+    "mean_cost": 275.9774144989584,
+    "gap_pct": 99.16428295884829,
+    "gap_ontime_days_pct": 99.16428295884829
+  }
+]

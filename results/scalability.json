@@ -1,0 +1,126 @@
+[
+  {
+    "dt_h": 1.0,
+    "epochs": 24,
+    "n_jobs": 3,
+    "candidates": 2024,
+    "mask_ms": 0.028644789999816567,
+    "enumeration_s": 0.0037499159952858463,
+    "feasible": 760,
+    "empc_solve_ms": 0.03770899638766423,
+    "memory_mb": 0.07296
+  },
+  {
+    "dt_h": 1.0,
+    "epochs": 24,
+    "n_jobs": 4,
+    "candidates": 10626,
+    "mask_ms": 0.03649541500635678,
+    "enumeration_s": 0.01818904199899407,
+    "feasible": 2565,
+    "empc_solve_ms": 0.14162499428493902,
+    "memory_mb": 0.24624
+  },
+  {
+    "dt_h": 1.0,
+    "epochs": 24,
+    "n_jobs": 5,
+    "candidates": 42504,
+    "mask_ms": 0.0462912500006496,
+    "enumeration_s": 0.09567633299593581,
+    "feasible": 5814,
+    "empc_solve_ms": 0.36004200228489935,
+    "memory_mb": 0.558144
+  },
+  {
+    "dt_h": 1.0,
+    "epochs": 24,
+    "n_jobs": 6,
+    "candidates": 134596,
+    "mask_ms": 0.05738104500778718,
+    "enumeration_s": 0.42886866699700477,
+    "feasible": 7752,
+    "empc_solve_ms": 0.44733400136465207,
+    "memory_mb": 0.744192
+  },
+  {
+    "dt_h": 0.5,
+    "epochs": 48,
+    "n_jobs": 3,
+    "candidates": 17296,
+    "mask_ms": 0.028840625018347055,
+    "enumeration_s": 0.024681333001353778,
+    "feasible": 5980,
+    "empc_solve_ms": 0.3184999950462952,
+    "memory_mb": 0.57408
+  },
+  {
+    "dt_h": 0.5,
+    "epochs": 48,
+    "n_jobs": 4,
+    "candidates": 194580,
+    "mask_ms": 0.03882957997120684,
+    "enumeration_s": 0.4032169169950066,
+    "feasible": 41990,
+    "empc_solve_ms": 3.715250000823289,
+    "memory_mb": 4.03104
+  },
+  {
+    "dt_h": 0.5,
+    "epochs": 48,
+    "n_jobs": 5,
+    "candidates": 1712304,
+    "mask_ms": 0.046881249982106965,
+    "enumeration_s": 4.011554167002032,
+    "feasible": 201058,
+    "empc_solve_ms": 21.519041001738515,
+    "memory_mb": 19.301568
+  },
+  {
+    "dt_h": 0.5,
+    "epochs": 48,
+    "n_jobs": 6,
+    "candidates": 12271512,
+    "mask_ms": 0.057395830008317716,
+    "enumeration_s": 34.02396929099632,
+    "feasible": 548340,
+    "empc_solve_ms": 52.078917004109826,
+    "memory_mb": 52.64064
+  },
+  {
+    "dt_h": 0.25,
+    "epochs": 96,
+    "n_jobs": 3,
+    "candidates": 142880,
+    "mask_ms": 0.029844165001122747,
+    "enumeration_s": 0.22123541699693305,
+    "feasible": 47400,
+    "empc_solve_ms": 2.6549579997663386,
+    "memory_mb": 4.5504
+  },
+  {
+    "dt_h": 0.25,
+    "epochs": 96,
+    "n_jobs": 4,
+    "candidates": 3321960,
+    "mask_ms": 0.039329999999608845,
+    "enumeration_s": 6.327946249999513,
+    "feasible": 677820,
+    "empc_solve_ms": 74.52495799952885,
+    "memory_mb": 65.07072
+  },
+  {
+    "dt_h": 0.25,
+    "epochs": 96,
+    "n_jobs": 5,
+    "candidates": 61124064,
+    "mask_ms": 0.04761020998557797
+  },
+  {
+    "dt_h": 0.25,
+    "epochs": 96,
+    "n_jobs": 6,
+    "candidates": 927048304,
+    "mask_ms": 0.05748979499912821
+  }
+]

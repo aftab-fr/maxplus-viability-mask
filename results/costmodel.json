@@ -1,0 +1,566 @@
+{
+  "ALL|2020": {
+    "Best block": {
+      "mean": 198.21268840377914,
+      "gap_to_oracle_pct": 27.952908847425984,
+      "saving_vs_latest_pct": 40.660256110252135
+    },
+    "Day shift (08-10 h)": {
+      "mean": 224.02419899532734,
+      "gap_to_oracle_pct": 44.615100801590344,
+      "saving_vs_latest_pct": 32.932958527819565
+    },
+    "EMPC": {
+      "mean": 158.0763185355581,
+      "gap_to_oracle_pct": 2.043541911473845,
+      "saving_vs_latest_pct": 52.67604545161208
+    },
+    "EMPC (energy-only model)": {
+      "mean": 215.25857209701064,
+      "gap_to_oracle_pct": 38.956595947319485,
+      "saving_vs_latest_pct": 35.55716013351899
+    },
+    "Latest start (11-13 h)": {
+      "mean": 334.0302391126841,
+      "gap_to_oracle_pct": 115.62767288844404,
+      "saving_vs_latest_pct": 0.0
+    },
+    "MaskablePPO + max-plus mask (proposed)": {
+      "mean": 217.37347413689142,
+      "gap_to_oracle_pct": 40.321835832360776,
+      "saving_vs_latest_pct": 34.924013252715994
+    },
+    "Oracle": {
+      "mean": 154.91065438780493,
+      "gap_to_oracle_pct": 0.0,
+      "saving_vs_latest_pct": 53.62376328583045
+    },
+    "PPO + deadline penalty": {
+      "mean": 216.6807990405507,
+      "gap_to_oracle_pct": 39.87469092868834,
+      "saving_vs_latest_pct": 35.13138223169846
+    },
+    "PPO + post-hoc shield": {
+      "mean": 218.89780801100804,
+      "gap_to_oracle_pct": 41.3058442468502,
+      "saving_vs_latest_pct": 34.46766718112503
+    }
+  },
+  "ALL|2023": {
+    "Best block": {
+      "mean": 265.99181868461176,
+      "gap_to_oracle_pct": 29.320829224099796,
+      "saving_vs_latest_pct": 40.65594112588129
+    },
+    "Day shift (08-10 h)": {
+      "mean": 317.6112201233963,
+      "gap_to_oracle_pct": 54.41732967710979,
+      "saving_vs_latest_pct": 29.13940346250985
+    },
+    "EMPC": {
+      "mean": 211.96828711972287,
+      "gap_to_oracle_pct": 3.055480409482536,
+      "saving_vs_latest_pct": 52.708851826777405
+    },
+    "EMPC (energy-only model)": {
+      "mean": 280.7561521430757,
+      "gap_to_oracle_pct": 36.499004309453056,
+      "saving_vs_latest_pct": 37.361947053698586
+    },
+    "Latest start (11-13 h)": {
+      "mean": 448.21979441756184,
+      "gap_to_oracle_pct": 117.91706141707733,
+      "saving_vs_latest_pct": 0.0
+    },
+    "MaskablePPO + max-plus mask (proposed)": {
+      "mean": 292.14896182883535,
+      "gap_to_oracle_pct": 42.038000219329994,
+      "saving_vs_latest_pct": 34.820156211871975
+    },
+    "Oracle": {
+      "mean": 205.6836630885463,
+      "gap_to_oracle_pct": 0.0,
+      "saving_vs_latest_pct": 54.110981788338584
+    },
+    "PPO + deadline penalty": {
+      "mean": 290.8416861588623,
+      "gap_to_oracle_pct": 41.40242437906003,
+      "saving_vs_latest_pct": 35.11181572496239
+    },
+    "PPO + post-hoc shield": {
+      "mean": 295.7657546875889,
+      "gap_to_oracle_pct": 43.79642517367193,
+      "saving_vs_latest_pct": 34.01323226433561
+    }
+  },
+  "B|2020": {
+    "Best block": {
+      "mean": 65.65756901426066,
+      "gap_to_oracle_pct": 22.446430611479595,
+      "saving_vs_latest_pct": 36.97975845705395
+    },
+    "Day shift (08-10 h)": {
+      "mean": 77.57280145167756,
+      "gap_to_oracle_pct": 44.667443417344124,
+      "saving_vs_latest_pct": 25.543136030730707
+    },
+    "EMPC": {
+      "mean": 54.33133832177577,
+      "gap_to_oracle_pct": 1.3238617835697575,
+      "saving_vs_latest_pct": 47.851038108856095
+    },
+    "EMPC (energy-only model)": {
+      "mean": 60.863836649183845,
+      "gap_to_oracle_pct": 13.506480104282282,
+      "saving_vs_latest_pct": 41.580936601096454
+    },
+    "Latest start (11-13 h)": {
+      "mean": 104.1848895001733,
+      "gap_to_oracle_pct": 94.29698714822715,
+      "saving_vs_latest_pct": 0.0
+    },
+    "MaskablePPO + max-plus mask (proposed)": {
+      "mean": 63.470982035260185,
+      "gap_to_oracle_pct": 18.36861026540504,
+      "saving_vs_latest_pct": 39.0785148021349
+    },
+    "Oracle": {
+      "mean": 53.62146424879545,
+      "gap_to_oracle_pct": 0.0,
+      "saving_vs_latest_pct": 48.53239802235788
+    },
+    "PPO + deadline penalty": {
+      "mean": 63.21905723249276,
+      "gap_to_oracle_pct": 17.89878944589416,
+      "saving_vs_latest_pct": 39.32032031152885
+    },
+    "PPO + post-hoc shield": {
+      "mean": 63.964470601154645,
+      "gap_to_oracle_pct": 19.288929344355864,
+      "saving_vs_latest_pct": 38.60484864165619
+    }
+  },
+  "B|2023": {
+    "Best block": {
+      "mean": 194.97395286814438,
+      "gap_to_oracle_pct": 16.489727872801584,
+      "saving_vs_latest_pct": 39.2834669896513
+    },
+    "Day shift (08-10 h)": {
+      "mean": 226.58711969106136,
+      "gap_to_oracle_pct": 35.37742618442954,
+      "saving_vs_latest_pct": 29.438860267935173
+    },
+    "EMPC": {
+      "mean": 169.0540199452979,
+      "gap_to_oracle_pct": 1.0035263148652884,
+      "saving_vs_latest_pct": 47.35515266758558
+    },
+    "EMPC (energy-only model)": {
+      "mean": 183.579093684443,
+      "gap_to_oracle_pct": 9.681720824003936,
+      "saving_vs_latest_pct": 42.83192222481477
+    },
+    "Latest start (11-13 h)": {
+      "mean": 321.1216833393838,
+      "gap_to_oracle_pct": 91.85833264383977,
+      "saving_vs_latest_pct": 0.0
+    },
+    "MaskablePPO + max-plus mask (proposed)": {
+      "mean": 194.45199587539327,
+      "gap_to_oracle_pct": 16.177877868467917,
+      "saving_vs_latest_pct": 39.4460087985143
+    },
+    "Oracle": {
+      "mean": 167.37437405729193,
+      "gap_to_oracle_pct": 0.0,
+      "saving_vs_latest_pct": 47.87820856046056
+    },
+    "PPO + deadline penalty": {
+      "mean": 192.95423019035272,
+      "gap_to_oracle_pct": 15.283018250036795,
+      "saving_vs_latest_pct": 39.91242566250962
+    },
+    "PPO + post-hoc shield": {
+      "mean": 195.35993809043256,
+      "gap_to_oracle_pct": 16.720339771703173,
+      "saving_vs_latest_pct": 39.163267936671055
+    }
+  },
+  "E|2020": {
+    "Best block": {
+      "mean": 82.72105787110503,
+      "gap_to_oracle_pct": 19.153701772172017,
+      "saving_vs_latest_pct": 38.08583064189469
+    },
+    "Day shift (08-10 h)": {
+      "mean": 96.1109792797642,
+      "gap_to_oracle_pct": 38.44091525010192,
+      "saving_vs_latest_pct": 28.063886011070196
+    },
+    "EMPC": {
+      "mean": 69.74483097819245,
+      "gap_to_oracle_pct": 0.46238532726678994,
+      "saving_vs_latest_pct": 47.79813764271735
+    },
+    "EMPC (energy-only model)": {
+      "mean": 69.74483097819245,
+      "gap_to_oracle_pct": 0.46238532726678994,
+      "saving_vs_latest_pct": 47.79813764271735
+    },
+    "Latest start (11-13 h)": {
+      "mean": 133.60602060677707,
+      "gap_to_oracle_pct": 92.44981077433023,
+      "saving_vs_latest_pct": 0.0
+    },
+    "MaskablePPO + max-plus mask (proposed)": {
+      "mean": 74.51533437828255,
+      "gap_to_oracle_pct": 7.33395048934653,
+      "saving_vs_latest_pct": 44.22756247071188
+    },
+    "Oracle": {
+      "mean": 69.42382539593434,
+      "gap_to_oracle_pct": 0.0,
+      "saving_vs_latest_pct": 48.038400454827354
+    },
+    "PPO + deadline penalty": {
+      "mean": 73.91343527070202,
+      "gap_to_oracle_pct": 6.466958352068297,
+      "saving_vs_latest_pct": 44.678065453172536
+    },
+    "PPO + post-hoc shield": {
+      "mean": 74.37702072615947,
+      "gap_to_oracle_pct": 7.134719675812051,
+      "saving_vs_latest_pct": 44.331085988211264
+    }
+  },
+  "E|2023": {
+    "Best block": {
+      "mean": 242.9765984802445,
+      "gap_to_oracle_pct": 16.87038317427154,
+      "saving_vs_latest_pct": 40.44077222464437
+    },
+    "Day shift (08-10 h)": {
+      "mean": 280.7845442371699,
+      "gap_to_oracle_pct": 35.05579335484581,
+      "saving_vs_latest_pct": 31.173163462568066
+    },
+    "EMPC": {
+      "mean": 208.82354972446385,
+      "gap_to_oracle_pct": 0.4429579834369868,
+      "saving_vs_latest_pct": 48.81248054055346
+    },
+    "EMPC (energy-only model)": {
+      "mean": 208.82354972446385,
+      "gap_to_oracle_pct": 0.4429579834369868,
+      "saving_vs_latest_pct": 48.81248054055346
+    },
+    "Latest start (11-13 h)": {
+      "mean": 407.9579396104648,
+      "gap_to_oracle_pct": 96.22548434489622,
+      "saving_vs_latest_pct": 0.0
+    },
+    "MaskablePPO + max-plus mask (proposed)": {
+      "mean": 223.02753002207442,
+      "gap_to_oracle_pct": 7.27499296279126,
+      "saving_vs_latest_pct": 45.33075389217075
+    },
+    "Oracle": {
+      "mean": 207.90262843403994,
+      "gap_to_oracle_pct": 0.0,
+      "saving_vs_latest_pct": 49.03821981438723
+    },
+    "PPO + deadline penalty": {
+      "mean": 222.02376811363996,
+      "gap_to_oracle_pct": 6.792189106007451,
+      "saving_vs_latest_pct": 45.57679933239258
+    },
+    "PPO + post-hoc shield": {
+      "mean": 222.90091444591334,
+      "gap_to_oracle_pct": 7.21409157971844,
+      "saving_vs_latest_pct": 45.361790321142315
+    }
+  },
+  "N|2020": {
+    "Best block": {
+      "mean": 144.81357270635334,
+      "gap_to_oracle_pct": 20.78067823043426,
+      "saving_vs_latest_pct": 38.57793153252055
+    },
+    "Day shift (08-10 h)": {
+      "mean": 164.98227184149465,
+      "gap_to_oracle_pct": 37.60223103824691,
+      "saving_vs_latest_pct": 30.023462527804856
+    },
+    "EMPC": {
+      "mean": 120.52736642796344,
+      "gap_to_oracle_pct": 0.524949356897042,
+      "saving_vs_latest_pct": 48.87882389342803
+    },
+    "EMPC (energy-only model)": {
+      "mean": 121.82657229845917,
+      "gap_to_oracle_pct": 1.6085423051742653,
+      "saving_vs_latest_pct": 48.327771181727066
+    },
+    "Latest start (11-13 h)": {
+      "mean": 235.76798424336098,
+      "gap_to_oracle_pct": 96.64052553746676,
+      "saving_vs_latest_pct": 0.0
+    },
+    "MaskablePPO + max-plus mask (proposed)": {
+      "mean": 129.3550653673801,
+      "gap_to_oracle_pct": 7.887625694417233,
+      "saving_vs_latest_pct": 45.13459247551648
+    },
+    "Oracle": {
+      "mean": 119.89796284308602,
+      "gap_to_oracle_pct": 0.0,
+      "saving_vs_latest_pct": 49.1457827796811
+    },
+    "PPO + deadline penalty": {
+      "mean": 128.35045526727984,
+      "gap_to_oracle_pct": 7.0497381471408715,
+      "saving_vs_latest_pct": 45.56069362887041
+    },
+    "PPO + post-hoc shield": {
+      "mean": 129.2998323758208,
+      "gap_to_oracle_pct": 7.841559030522727,
+      "saving_vs_latest_pct": 45.15801931683955
+    }
+  },
+  "N|2023": {
+    "Best block": {
+      "mean": 307.94778771411046,
+      "gap_to_oracle_pct": 17.090943342284493,
+      "saving_vs_latest_pct": 39.92451143353023
+    },
+    "Day shift (08-10 h)": {
+      "mean": 353.5224116210593,
+      "gap_to_oracle_pct": 34.419776081581844,
+      "saving_vs_latest_pct": 31.03366075469741
+    },
+    "EMPC": {
+      "mean": 264.4854375638274,
+      "gap_to_oracle_pct": 0.5652601518150613,
+      "saving_vs_latest_pct": 48.403292654550825
+    },
+    "EMPC (energy-only model)": {
+      "mean": 265.2898778838633,
+      "gap_to_oracle_pct": 0.8711323798143766,
+      "saving_vs_latest_pct": 48.24635973547563
+    },
+    "Latest start (11-13 h)": {
+      "mean": 512.6013871254422,
+      "gap_to_oracle_pct": 94.90635221839383,
+      "saving_vs_latest_pct": 0.0
+    },
+    "MaskablePPO + max-plus mask (proposed)": {
+      "mean": 281.7574418832409,
+      "gap_to_oracle_pct": 7.1325918874457495,
+      "saving_vs_latest_pct": 45.03381204969503
+    },
+    "Oracle": {
+      "mean": 262.9988100906373,
+      "gap_to_oracle_pct": 0.0,
+      "saving_vs_latest_pct": 48.69330893435975
+    },
+    "PPO + deadline penalty": {
+      "mean": 280.67810889898874,
+      "gap_to_oracle_pct": 6.722197260990903,
+      "saving_vs_latest_pct": 45.24437195284021
+    },
+    "PPO + post-hoc shield": {
+      "mean": 282.2061254529499,
+      "gap_to_oracle_pct": 7.303194777076438,
+      "saving_vs_latest_pct": 44.94628135216316
+    }
+  },
+  "ND|2020": {
+    "Best block": {
+      "mean": 322.2426563417544,
+      "gap_to_oracle_pct": 21.720643327204247,
+      "saving_vs_latest_pct": 32.506221699396676
+    },
+    "Day shift (08-10 h)": {
+      "mean": 357.666216762489,
+      "gap_to_oracle_pct": 35.10117653252591,
+      "saving_vs_latest_pct": 25.086751040864584
+    },
+    "EMPC": {
+      "mean": 265.86823824470974,
+      "gap_to_oracle_pct": 0.42634754442729683,
+      "saving_vs_latest_pct": 44.31385300452142
+    },
+    "EMPC (energy-only model)": {
+      "mean": 285.2633105443996,
+      "gap_to_oracle_pct": 7.752443674891674,
+      "saving_vs_latest_pct": 40.2515518654347
+    },
+    "Latest start (11-13 h)": {
+      "mean": 477.4405351950402,
+      "gap_to_oracle_pct": 80.34350186336536,
+      "saving_vs_latest_pct": 0.0
+    },
+    "MaskablePPO + max-plus mask (proposed)": {
+      "mean": 299.55031383929236,
+      "gap_to_oracle_pct": 13.149070093052506,
+      "saving_vs_latest_pct": 37.25913663427794
+    },
+    "Oracle": {
+      "mean": 264.73952776893844,
+      "gap_to_oracle_pct": 0.0,
+      "saving_vs_latest_pct": 44.55026160257022
+    },
+    "PPO + deadline penalty": {
+      "mean": 297.48893681721074,
+      "gap_to_oracle_pct": 12.370426631891407,
+      "saving_vs_latest_pct": 37.690892396540455
+    },
+    "PPO + post-hoc shield": {
+      "mean": 300.52931336399564,
+      "gap_to_oracle_pct": 13.518867354894626,
+      "saving_vs_latest_pct": 37.054085019985614
+    }
+  },
+  "ND|2023": {
+    "Best block": {
+      "mean": 491.66853453190964,
+      "gap_to_oracle_pct": 18.896924717805597,
+      "saving_vs_latest_pct": 34.54163556828848
+    },
+    "Day shift (08-10 h)": {
+      "mean": 552.5752735112067,
+      "gap_to_oracle_pct": 33.62559545961514,
+      "saving_vs_latest_pct": 26.43280769658093
+    },
+    "EMPC": {
+      "mean": 415.42121183540377,
+      "gap_to_oracle_pct": 0.4585428611925568,
+      "saving_vs_latest_pct": 44.692834364774136
+    },
+    "EMPC (energy-only model)": {
+      "mean": 435.64837513944286,
+      "gap_to_oracle_pct": 5.349942948254682,
+      "saving_vs_latest_pct": 41.99988793037179
+    },
+    "Latest start (11-13 h)": {
+      "mean": 751.1164368380081,
+      "gap_to_oracle_pct": 81.63748170311081,
+      "saving_vs_latest_pct": 0.0
+    },
+    "MaskablePPO + max-plus mask (proposed)": {
+      "mean": 458.3972694969628,
+      "gap_to_oracle_pct": 10.851156448554079,
+      "saving_vs_latest_pct": 38.9712104521786
+    },
+    "Oracle": {
+      "mean": 413.5250223660991,
+      "gap_to_oracle_pct": 0.0,
+      "saving_vs_latest_pct": 44.9452838354963
+    },
+    "PPO + deadline penalty": {
+      "mean": 457.52671660208375,
+      "gap_to_oracle_pct": 10.640636444251106,
+      "saving_vs_latest_pct": 39.08711164301712
+    },
+    "PPO + post-hoc shield": {
+      "mean": 460.8574381272931,
+      "gap_to_oracle_pct": 11.446082631316568,
+      "saving_vs_latest_pct": 38.643675530870404
+    }
+  },
+  "NDX|2020": {
+    "Best block": {
+      "mean": 250.22299837941208,
+      "gap_to_oracle_pct": 28.076574394750065,
+      "saving_vs_latest_pct": 32.69149982673445
+    },
+    "Day shift (08-10 h)": {
+      "mean": 289.8599595451877,
+      "gap_to_oracle_pct": 48.364742302612385,
+      "saving_vs_latest_pct": 22.02939272717441
+    },
+    "EMPC": {
+      "mean": 195.95710169405712,
+      "gap_to_oracle_pct": 0.30058977729638947,
+      "saving_vs_latest_pct": 47.28870368131487
+    },
+    "EMPC (energy-only model)": {
+      "mean": 218.07635042099145,
+      "gap_to_oracle_pct": 11.622321286706171,
+      "saving_vs_latest_pct": 41.33875716795769
+    },
+    "Latest start (11-13 h)": {
+      "mean": 371.7554212845153,
+      "gap_to_oracle_pct": 90.28291235884815,
+      "saving_vs_latest_pct": 0.0
+    },
+    "MaskablePPO + max-plus mask (proposed)": {
+      "mean": 229.90371647006782,
+      "gap_to_oracle_pct": 17.676155416619267,
+      "saving_vs_latest_pct": 38.1572659584389
+    },
+    "Oracle": {
+      "mean": 195.3698399273153,
+      "gap_to_oracle_pct": 0.0,
+      "saving_vs_latest_pct": 47.44667360807819
+    },
+    "PPO + deadline penalty": {
+      "mean": 227.83092751566207,
+      "gap_to_oracle_pct": 16.615198948017508,
+      "saving_vs_latest_pct": 38.71483387425939
+    },
+    "PPO + post-hoc shield": {
+      "mean": 230.15271915491866,
+      "gap_to_oracle_pct": 17.80360737386275,
+      "saving_vs_latest_pct": 38.09028571535584
+    }
+  },
+  "NDX|2023": {
+    "Best block": {
+      "mean": 305.44014430678027,
+      "gap_to_oracle_pct": 28.564783247175463,
+      "saving_vs_latest_pct": 36.41221040113673
+    },
+    "Day shift (08-10 h)": {
+      "mean": 377.8731025605676,
+      "gap_to_oracle_pct": 59.05300737693062,
+      "saving_vs_latest_pct": 21.33281826714464
+    },
+    "EMPC": {
+      "mean": 238.8165224980434,
+      "gap_to_oracle_pct": 0.5218044291095181,
+      "saving_vs_latest_pct": 50.28219090256408
+    },
+    "EMPC (energy-only model)": {
+      "mean": 268.1129735662253,
+      "gap_to_oracle_pct": 12.853162803892326,
+      "saving_vs_latest_pct": 44.18313483138219
+    },
+    "Latest start (11-13 h)": {
+      "mean": 480.34401924271407,
+      "gap_to_oracle_pct": 102.18470253206249,
+      "saving_vs_latest_pct": 0.0
+    },
+    "MaskablePPO + max-plus mask (proposed)": {
+      "mean": 282.4372936597449,
+      "gap_to_oracle_pct": 18.88250486096268,
+      "saving_vs_latest_pct": 41.201038766960984
+    },
+    "Oracle": {
+      "mean": 237.57683604502225,
+      "gap_to_oracle_pct": 0.0,
+      "saving_vs_latest_pct": 50.540273943751025
+    },
+    "PPO + deadline penalty": {
+      "mean": 281.86042081600016,
+      "gap_to_oracle_pct": 18.63968958766078,
+      "saving_vs_latest_pct": 41.32113453595885
+    },
+    "PPO + post-hoc shield": {
+      "mean": 283.59837354886514,
+      "gap_to_oracle_pct": 19.371222493728958,
+      "saving_vs_latest_pct": 40.9593203646062
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "2020|MaskablePPO + max-plus mask (proposed)": {
+    "releases": 10890,
+    "consistent_pct_w1": 73.13131313131314,
+    "regret_per_day_w1": 2.380234207738013,
+    "flagged_median_regret_w1": 1.672030430026382,
+    "flagged_regret_lt_0.5eur_pct_w1": 20.198222829801775,
+    "flagged_regret_lt_2eur_pct_w1": 55.33151059466849,
+    "flagged_expost_valid_pct_w1": 90.53315105946686,
+    "flagged_expost_gain_per_day_w1": 2.2656344340954755,
+    "consistent_pct_w2": 71.02846648301193,
+    "regret_per_day_w2": 2.821366314217942,
+    "flagged_median_regret_w2": 1.8507004469268882,
+    "flagged_regret_lt_0.5eur_pct_w2": 18.09825673534073,
+    "flagged_regret_lt_2eur_pct_w2": 52.646592709984155,
+    "flagged_expost_valid_pct_w2": 89.92076069730587,
+    "flagged_expost_gain_per_day_w2": 2.6856146149794884,
+    "consistent_pct_w3": 70.77134986225894,
+    "regret_per_day_w3": 2.9906617359810164,
+    "flagged_median_regret_w3": 1.8854017092274056,
+    "flagged_regret_lt_0.5eur_pct_w3": 17.404963870562362,
+    "flagged_regret_lt_2eur_pct_w3": 51.99497329563305,
+    "flagged_expost_valid_pct_w3": 89.85234055922085,
+    "flagged_expost_gain_per_day_w3": 2.8450662731357808,
+    "gap_to_empc_eur_day": 4.770503400090092,
+    "share_of_gap_explained_w1": 49.894822581890665,
+    "share_of_gap_explained_w2": 59.14189924200997,
+    "share_of_gap_explained_w3": 62.69069498880425
+  },
+  "2020|Max-plus EMPC (forecast)": {
+    "releases": 1089,
+    "consistent_pct_w1": 100.0,
+    "regret_per_day_w1": 0.0,
+    "consistent_pct_w2": 100.0,
+    "regret_per_day_w2": 0.0,
+    "consistent_pct_w3": 100.0,
+    "regret_per_day_w3": 0.0
+  },
+  "2023|MaskablePPO + max-plus mask (proposed)": {
+    "releases": 10860,
+    "consistent_pct_w1": 68.30570902394106,
+    "regret_per_day_w1": 8.06131931501766,
+    "flagged_median_regret_w1": 5.0847483798860935,
+    "flagged_regret_lt_0.5eur_pct_w1": 13.567693201626959,
+    "flagged_regret_lt_2eur_pct_w1": 30.883207437536313,
+    "flagged_expost_valid_pct_w1": 89.88959907030795,
+    "flagged_expost_gain_per_day_w1": 7.453926793977658,
+    "consistent_pct_w2": 67.12707182320442,
+    "regret_per_day_w2": 9.507142883511165,
+    "flagged_median_regret_w2": 6.028500013053417,
+    "flagged_regret_lt_0.5eur_pct_w2": 11.288515406162466,
+    "flagged_regret_lt_2eur_pct_w2": 26.302521008403364,
+    "flagged_expost_valid_pct_w2": 89.57983193277312,
+    "flagged_expost_gain_per_day_w2": 8.68366358240204,
+    "consistent_pct_w3": 67.01657458563535,
+    "regret_per_day_w3": 9.883128047729924,
+    "flagged_median_regret_w3": 6.200001388788223,
+    "flagged_regret_lt_0.5eur_pct_w3": 11.25069793411502,
+    "flagged_regret_lt_2eur_pct_w3": 25.907314349525407,
+    "flagged_expost_valid_pct_w3": 89.67057509771078,
+    "flagged_expost_gain_per_day_w3": 9.058445675058953,
+    "gap_to_empc_eur_day": 14.20398029761057,
+    "share_of_gap_explained_w1": 56.75394604971224,
+    "share_of_gap_explained_w2": 66.93294896438627,
+    "share_of_gap_explained_w3": 69.57998983842923
+  },
+  "2023|Max-plus EMPC (forecast)": {
+    "releases": 1086,
+    "consistent_pct_w1": 100.0,
+    "regret_per_day_w1": 0.0,
+    "consistent_pct_w2": 100.0,
+    "regret_per_day_w2": 0.0,
+    "consistent_pct_w3": 100.0,
+    "regret_per_day_w3": 0.0
+  },
+  "surrogate_fidelity": {
+    "train2020_test2023_depth2": {
+      "accuracy": 81.80739193391412,
+      "majority": 74.22318228214684,
+      "n": 42127
+    },
+    "train2020_test2023_depth3": {
+      "accuracy": 83.65418852517388,
+      "majority": 74.22318228214684,
+      "n": 42127
+    },
+    "tree_depth3_text": "|--- slack <= 4.50\n|   |--- pv_now <= 0.32\n|   |   |--- hour <= 8.50\n|   |   |   |--- class: 1\n|   |   |--- hour >  8.50\n|   |   |   |--- class: 1\n|   |--- pv_now >  0.32\n|   |   |--- hour <= 9.50\n|   |   |   |--- class: 1\n|   |   |--- hour >  9.50\n|   |   |   |--- class: 1\n|--- slack >  4.50\n|   |--- hour <= 8.50\n|   |   |--- hour <= 0.50\n|   |   |   |--- class: 0\n|   |   |--- hour >  0.50\n|   |   |   |--- class: 0\n|   |--- hour >  8.50\n|   |   |--- hour <= 11.50\n|   |   |   |--- class: 0\n|   |   |--- hour >  11.50\n|   |   |   |--- class: 1\n",
+    "train2020_test2023_depth4": {
+      "accuracy": 84.61556721342606,
+      "majority": 74.22318228214684,
+      "n": 42127
+    },
+    "train2023_test2020_depth2": {
+      "accuracy": 82.59733113220526,
+      "majority": 75.0332462053469,
+      "n": 43614
+    },
+    "train2023_test2020_depth3": {
+      "accuracy": 84.69757417343054,
+      "majority": 75.0332462053469,
+      "n": 43614
+    },
+    "train2023_test2020_depth4": {
+      "accuracy": 84.72050259091117,
+      "majority": 75.0332462053469,
+      "n": 43614
+    }
+  }
+}

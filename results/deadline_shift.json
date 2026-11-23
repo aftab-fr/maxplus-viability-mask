@@ -1,0 +1,102 @@
+{
+  "D19": {
+    "Latest start": {
+      "mean": 183.775195248909,
+      "gap_to_oracle_pct": 31.84626762768563,
+      "seed_days": 725,
+      "violation_seed_days": 0,
+      "late_jobs": 0,
+      "safety_seed_days": 0
+    },
+    "MaskablePPO + max-plus mask (proposed)": {
+      "mean": 149.0436713049063,
+      "gap_to_oracle_pct": 6.928749271434365,
+      "seed_days": 7250,
+      "violation_seed_days": 0,
+      "late_jobs": 0,
+      "safety_seed_days": 0
+    },
+    "Max-plus EMPC (forecast)": {
+      "mean": 139.88939047723795,
+      "gap_to_oracle_pct": 0.361172192770276,
+      "seed_days": 725,
+      "violation_seed_days": 0,
+      "late_jobs": 0,
+      "safety_seed_days": 0
+    },
+    "Oracle (perfect information)": {
+      "mean": 139.38596712336445,
+      "gap_to_oracle_pct": 0.0,
+      "seed_days": 725,
+      "violation_seed_days": 0,
+      "late_jobs": 0,
+      "safety_seed_days": 0
+    },
+    "PPO + deadline penalty": {
+      "mean": 148.26042638366522,
+      "gap_to_oracle_pct": 6.366824037922236,
+      "seed_days": 7250,
+      "violation_seed_days": 511,
+      "late_jobs": 511,
+      "safety_seed_days": 0
+    },
+    "PPO + post-hoc shield": {
+      "mean": 149.00620259666016,
+      "gap_to_oracle_pct": 6.901868008550149,
+      "seed_days": 7250,
+      "violation_seed_days": 0,
+      "late_jobs": 0,
+      "safety_seed_days": 622
+    }
+  },
+  "D21": {
+    "Latest start": {
+      "mean": 207.84005643303803,
+      "gap_to_oracle_pct": 49.83584644442909,
+      "seed_days": 725,
+      "violation_seed_days": 0,
+      "late_jobs": 0,
+      "safety_seed_days": 0
+    },
+    "MaskablePPO + max-plus mask (proposed)": {
+      "mean": 148.68044163937384,
+      "gap_to_oracle_pct": 7.186555879061474,
+      "seed_days": 7250,
+      "violation_seed_days": 0,
+      "late_jobs": 0,
+      "safety_seed_days": 0
+    },
+    "Max-plus EMPC (forecast)": {
+      "mean": 139.33238759933337,
+      "gap_to_oracle_pct": 0.4473660725527351,
+      "seed_days": 725,
+      "violation_seed_days": 0,
+      "late_jobs": 0,
+      "safety_seed_days": 0
+    },
+    "Oracle (perfect information)": {
+      "mean": 138.71183789796353,
+      "gap_to_oracle_pct": 0.0,
+      "seed_days": 725,
+      "violation_seed_days": 0,
+      "late_jobs": 0,
+      "safety_seed_days": 0
+    },
+    "PPO + deadline penalty": {
+      "mean": 147.86631145051962,
+      "gap_to_oracle_pct": 6.599633954306139,
+      "seed_days": 7250,
+      "violation_seed_days": 4,
+      "late_jobs": 4,
+      "safety_seed_days": 0
+    },
+    "PPO + post-hoc shield": {
+      "mean": 148.74616265743506,
+      "gap_to_oracle_pct": 7.233935409934356,
+      "seed_days": 7250,
+      "violation_seed_days": 0,
+      "late_jobs": 0,
+      "safety_seed_days": 15
+    }
+  }
+}

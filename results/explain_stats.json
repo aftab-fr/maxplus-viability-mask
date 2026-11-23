@@ -1,0 +1,34 @@
+{
+  "2020|MaskablePPO + max-plus mask (proposed)": {
+    "releases": 10890,
+    "forced_pct": 0.009182736455463728,
+    "mean_slack_h": 6.109917355371901,
+    "locally_consistent_pct": 73.13131313131314,
+    "mean_pv_share_pct": 63.83625102010697,
+    "oven_driven_by_previous_job_pct": 30.385674931129476
+  },
+  "2020|Max-plus EMPC (forecast)": {
+    "releases": 1089,
+    "forced_pct": 0.3673094582185491,
+    "mean_slack_h": 6.298438934802571,
+    "locally_consistent_pct": 100.0,
+    "mean_pv_share_pct": 64.64782113764205,
+    "oven_driven_by_previous_job_pct": 32.231404958677686
+  },
+  "2023|MaskablePPO + max-plus mask (proposed)": {
+    "releases": 10860,
+    "forced_pct": 0.009208103130755063,
+    "mean_slack_h": 6.227255985267035,
+    "locally_consistent_pct": 68.30570902394106,
+    "mean_pv_share_pct": 61.6463104253799,
+    "oven_driven_by_previous_job_pct": 32.9097605893186
+  },
+  "2023|Max-plus EMPC (forecast)": {
+    "releases": 1086,
+    "forced_pct": 0.5524861878453038,
+    "mean_slack_h": 6.129834254143646,
+    "locally_consistent_pct": 100.0,
+    "mean_pv_share_pct": 62.8136614846318,
+    "oven_driven_by_previous_job_pct": 32.59668508287293
+  }
+}
