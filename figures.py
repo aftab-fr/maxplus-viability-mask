@@ -138,16 +138,18 @@ def fig4_infeasible():
             (b, "penalty", "violations", "(b) PPO + deadline penalty",
              "Cumulative late/unreleased jobs")):
         lab = VARIANT_LABEL[v]
-        for k, e in enumerate(_episodes(v)):
+        eps = _episodes(v)
+        for k, e in enumerate(eps):
             cum = np.interp(grid, e.timestep, e[col].cumsum())
             ax.plot(grid / 1e6, cum, color=COL[lab], lw=1.0, alpha=0.85,
-                    label="5 seeds" if k == 0 else None)
+                    label=f"{len(eps)} seeds" if k == 0 else None)
         ax.plot([0, 2], [0, 0], color=COL[M_MASK], lw=1.5, ls="--",
                 label="MaskablePPO+mask (0 by construction)")
         ax.set(xlabel="Training steps (millions)", ylabel=yl, title=ttl,
                xlim=(0, 2.0))
-        ax.set_ylim(bottom=-0.02 * ax.get_ylim()[1])
-        ax.legend(loc="upper left")
+        top = ax.get_ylim()[1]
+        ax.set_ylim(-0.02 * top, 1.35 * top)          # headroom for the legend
+        ax.legend(loc="upper left", fontsize=7)
         _grid(ax)
     fig.tight_layout()
     fig.savefig(FIG / "fig4_infeasible.pdf")
